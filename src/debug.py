@@ -2,7 +2,7 @@ from typing import Any
 import pygame
 
 pygame.init()
-font = pygame.font.Font(None,30)
+font = pygame.font.Font(None, 30)
  
 def debug(info: Any ,y: int = 10, x: int = 10) -> None:
     """
