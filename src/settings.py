@@ -1,7 +1,7 @@
-WIDTH    = 1280	
-HEIGTH   = 720
+WINDOW_WIDTH    = 1280	
+WINDOW_HEIGHT   = 720
 FPS      = 60
-TILESIZE = 64
+TITLE_SIZE = 64
 
 WORLD_MAP = [
     ['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x'],
