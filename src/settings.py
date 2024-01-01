@@ -1,9 +1,10 @@
-WINDOW_WIDTH    = 1280	
-WINDOW_HEIGHT   = 720
-FPS      = 60
-TITLE_SIZE = 64
+from typing import List
 
-WORLD_MAP = [
+WINDOW_WIDTH: int = 1280	
+WINDOW_HEIGHT: int = 720
+FPS: int = 60
+
+WORLD_MAP: List[List[str]] = [
     ['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x'],
     ['x',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
     ['x',' ','p',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','x'],
