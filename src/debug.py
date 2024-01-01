@@ -4,9 +4,9 @@ import pygame
 pygame.init()
 font = pygame.font.Font(None,30)
  
-def debug(info: Any ,y: int = 10, x: int = 10):
+def debug(info: Any ,y: int = 10, x: int = 10) -> None:
     """
-    Print debug info messages in the screen  
+    Debug util to print debug info messages in the screen  
     Args:
         info (_type_): _description_
         y (int, optional): _description_. Defaults to 10.
