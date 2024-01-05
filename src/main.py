@@ -23,7 +23,6 @@ class Game:
             pygame.display.update()
             self.level.run()
             self.clock.tick(settings.FPS)
-            print_debug(settings.FPS)
 
 
 if __name__ == "__main__":
