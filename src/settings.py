@@ -2,6 +2,7 @@ from typing import List
 
 WINDOW_WIDTH: int = 1280	
 WINDOW_HEIGHT: int = 720
+TILE_SIZE: int = 64
 FPS: int = 60
 
 WORLD_MAP: List[List[str]] = [
